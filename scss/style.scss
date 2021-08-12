@@ -71,36 +71,7 @@ button {
     position: relative;
 }
 
-.page__contacts-text {
-    position: relative;
-    z-index: 2;
-    display: flex;
-}
 
-.page__contacts-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-.page__contacts-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-.page__contacts-img img {
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
 
 
 

@@ -1,5 +1,5 @@
 
-.ramgreeset{
+.logo{
     text-transform: uppercase;
     font-size: 147px;
     color: $accent;
@@ -8,13 +8,50 @@
     margin-left: 15px;
 
 }
-.designer, .developer{
+.professions{
     padding-top: 7px;
     font-size: 62px;
     color: $main-color;
-    line-height: 45px;
-    letter-spacing: -2.3px;
+    line-height: 40px;
+    // letter-spacing: -2.3;
+    display: inline-block;
+    &__item{
+        &:last-child{
+            margin-left: 34.5px;
+        }
+    }
 }
 .designer{
     
+}
+
+.contacts__text {
+    position: relative;
+    z-index: 20;
+    display: flex;
+}
+
+.contacts__wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.contacts-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.contacts-img img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
