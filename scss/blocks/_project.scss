@@ -1,0 +1,41 @@
+.content {}
+
+.project {
+    height: 100%;
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    &__img{
+        height: 70%;
+        width: 500px;
+        transform: perspective(500px) rotateY(12deg);
+    }
+    &__img-link {
+        height: 100%;
+        width: 500px;
+        overflow: hidden;
+        display: block;
+    }
+    
+    
+    .img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    &__descr {}
+}
+.one{
+    background-color: rgba(77, 1, 255, 0.308);
+}
+.two{
+    background-color: rgba(1, 255, 35, 0.308);
+
+}

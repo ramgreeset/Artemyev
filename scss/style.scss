@@ -2,9 +2,8 @@
 @import "base/mixins";
 @import "blocks/swiper";
 @import "blocks/cover";
-@import "blocks/portfolio";
 @import "blocks/social";
-@import "blocks/about";
+@import "blocks/project";
 
 html,
 body {
@@ -61,7 +60,7 @@ button {
     overflow: hidden;
 }
 
-.content {
+.project {
     position: relative;
     display: flex;
     flex-direction: column;
