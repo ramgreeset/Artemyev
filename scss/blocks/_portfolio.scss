@@ -1,7 +1,5 @@
 .portfolio {
     height: 100vh;
-    background: #000000a8;
-    box-shadow: 0px 0px 200px 20px #000000;
     padding-top: 120px;
 
     &__wrapper {
@@ -14,13 +12,16 @@
     
     &__card {
         width: 250px;
-        height: 400px;
+        height: 450px;
         border-radius: 5px;
         overflow: hidden;
         margin: 0 20px 50px 20px;
         transition: box-shadow .3s;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.603);
+        transition: all .3s;
+
         &:hover {
-            box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.603);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.603);
         }
     }
     

@@ -2,7 +2,7 @@
 
 let pageSlider = new Swiper ('.page', {
 
-  wrapperClass: "page__wrapper",
+  wrapperClass: "page__content",
   slideClass: "screen",
 
   direction: 'vertical',
@@ -13,4 +13,5 @@ let pageSlider = new Swiper ('.page', {
   },
   speed:1000,
 
+  loop:true,
 })

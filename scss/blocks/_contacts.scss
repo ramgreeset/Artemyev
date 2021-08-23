@@ -6,13 +6,14 @@
     line-height: 90px;
     writing-mode: vertical-rl;
     margin-left: 15px;
-
+    text-shadow: 3px 5px 9px rgb(0, 0, 0);
 }
 .professions{
     padding-top: 7px;
     font-size: 62px;
     color: $main-color;
     line-height: 44px;
+    text-shadow: 0px 0px 9px rgb(0, 0, 0);
     display: inline-block;
     &__item{
         &:last-child{
@@ -26,6 +27,7 @@
     position: relative;
     z-index: 1;
     display: flex;
+    // flex-direction: column;
 }
 
 .contacts__wrapper{

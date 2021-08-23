@@ -12,6 +12,8 @@
 }
 .social__list {
     display: flex;
+    text-shadow: 6px 6px 9px rgb(0, 0, 0);
+
 }
 .social__item {
     position: relative;
@@ -36,7 +38,8 @@
 }
 
 .social__link{
+    transition: color .5s;
     &:hover{
-        text-shadow: 6px 6px 9px rgb(0, 0, 0);
+        color: #000;
     }
 }
