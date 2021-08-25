@@ -7,6 +7,7 @@
     writing-mode: vertical-rl;
     margin-left: 15px;
     text-shadow: 3px 5px 9px rgb(0, 0, 0);
+    position: absolute;
     z-index: 1;
 }
 .name{
@@ -14,11 +15,11 @@
     font-size: 62px;
     width: 100px;
     color: $main-color;
-    mix-blend-mode: overlay;
+    // mix-blend-mode: overlay;
     line-height: 44px;
     text-shadow: 0px 0px 9px rgb(0, 0, 0);
-    z-index: 1;
     position: absolute;
+    z-index: 1;
     left: 110px;
     top: 1px;
     &__item{
@@ -28,18 +29,21 @@
     }
 }
 
-
-.cover__text {
-    position: relative;
-    display: flex;
-    // flex-direction: column;
-}
-
-.cover__wrapper{
-    position: absolute;
-    width: 100%;
+.cover{
     height: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
+    width: 100%;
+
+    &__text{
+        position: relative;
+        display: flex;
+    }
+
+    &__wrapper{
+        position: absolute;
+        height: 100%;
+        width: 100%; 
+        top: 0;
+        left: 0;
+    }
 }
+

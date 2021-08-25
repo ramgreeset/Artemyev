@@ -1,41 +1,67 @@
-.content {}
-
 .project {
     height: 100%;
+    background-color: rgb(255, 255, 255);
+    // box-shadow: 0px 0px 150px 150px rgba(233, 250, 0, 0.384) inset;
     &__wrapper {
         height: 100%;
         display: flex;
+        justify-content: space-around;
         align-items: center;
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
+
     }
-    
-    &__img{
-        height: 70%;
-        width: 500px;
-        transform: perspective(500px) rotateY(12deg);
+
+    &__card{
+
     }
-    &__img-link {
-        height: 100%;
-        width: 500px;
-        overflow: hidden;
-        display: block;
+
+
+    &__card-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 550px;
+        border-radius: 8px;
+        transition: all .3s;
+        box-shadow: 0px 0px 23px 1px rgb(0, 0, 0);
+
+        &:hover{
+            box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
+
+            // transform: scale(1.1);
+        }
     }
-    
+    ._1{
+        background: url('../../img/card/bratyja.jpg')top center / cover no-repeat;
+    }
+    ._2{
+    background: url('../../img/card/drive.jpg')top center / cover no-repeat;
+
+    }
+    ._3{
+        background: url('../../img/card/velial.jpg')top center / cover no-repeat;
+        
+    }
+    ._4{
+        background: url('../../img/card/fashion.png')top center / cover no-repeat;
+
+    }
+
     
     .img {
-        width: 100%;
-        height: 700px;
+        display: block;
         object-fit: cover;
         object-position: top;
+
     }
+    // .project__circle{
+    //     height: 60px;
+    //     width: 60px;
+    //     background-color: rgb(58, 58, 58);
+    //     border-radius: 50%;
+    //     // position: absolute;
+    // }
+}
 
-    &__descr {}
-}
-.one{
-    background-color: rgba(77, 1, 255, 0.308);
-}
-.two{
-    background-color: rgba(1, 255, 35, 0.308);
-
-}
