@@ -5,6 +5,7 @@
     &__wrapper {
         height: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         margin: 0 auto;
@@ -34,18 +35,18 @@
         }
     }
     ._1{
-        background: url('../../img/card/bratyja.jpg')top center / cover no-repeat;
+        background: url('../../img/card/bratyja.webp')top center / cover no-repeat;
     }
     ._2{
-    background: url('../../img/card/drive.jpg')top center / cover no-repeat;
+    background: url('../../img/card/pulse.webp') top / cover no-repeat;
 
     }
     ._3{
-        background: url('../../img/card/velial.jpg')top center / cover no-repeat;
+        background: url('../../img/card/drive.webp')top center / cover no-repeat;
         
     }
     ._4{
-        background: url('../../img/card/fashion.png')top center / cover no-repeat;
+        background: url('../../img/card/триколор.webp')top center / cover no-repeat;
 
     }
 
