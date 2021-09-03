@@ -1,7 +1,7 @@
 @import "base/variables";
 @import "base/mixins";
 @import "blocks/swiper";
-@import "blocks/cover";
+@import "blocks/main";
 @import "blocks/social";
 @import "blocks/project";
 
@@ -46,12 +46,8 @@ h6 {
     margin: 0;
 }
 
-button {
-    cursor: pointer;
-    border: none;
-}
-
 .page {
+
     position: fixed;
     width: 100%;
     height: 100%;
@@ -60,17 +56,16 @@ button {
     overflow: hidden;
 }
 
-.project {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-.screen {
-    font: 1px 0 100%;
-    position: relative;
+.logo{
+    text-transform: uppercase;
+    font-size: 140px;
+    color: $accent;
+    line-height: 90px;
+    writing-mode: vertical-rl;
+    margin-left: 15px;
+    text-shadow: 3px 5px 9px rgb(0, 0, 0);
+    position: absolute;
+    // z-index: 1;
 }
 
 

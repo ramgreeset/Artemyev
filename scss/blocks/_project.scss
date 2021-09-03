@@ -1,23 +1,10 @@
 .project {
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    // box-shadow: 0px 0px 150px 150px rgba(233, 250, 0, 0.384) inset;
-    &__wrapper {
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 auto;
-        width: 80%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-    }
-
-    &__card{
-
-    }
-
-
+    
     &__card-link{
         display: flex;
         justify-content: center;
@@ -27,6 +14,7 @@
         border-radius: 8px;
         transition: all .3s;
         box-shadow: 0px 0px 23px 1px rgb(0, 0, 0);
+        margin: 10px;
 
         &:hover{
             box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
@@ -34,35 +22,6 @@
             // transform: scale(1.1);
         }
     }
-    ._1{
-        background: url('../img/card/bratyja.webp')top center / cover no-repeat;
-    }
-    ._2{
-    background: url('../img/card/pulse.webp') top / cover no-repeat;
 
-    }
-    ._3{
-        background: url('../img/card/drive.webp')top center / cover no-repeat;
-        
-    }
-    ._4{
-        background: url('../img/card/триколор.webp')top center / cover no-repeat;
-
-    }
-
-    
-    .img {
-        display: block;
-        object-fit: cover;
-        object-position: top;
-
-    }
-    // .project__circle{
-    //     height: 60px;
-    //     width: 60px;
-    //     background-color: rgb(58, 58, 58);
-    //     border-radius: 50%;
-    //     // position: absolute;
-    // }
 }
 
