@@ -1,11 +1,11 @@
 .social {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     z-index: 2;
     display: flex;
     align-items: center;
-    height: 60px;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
 }
 .social__list {
     display: flex;
